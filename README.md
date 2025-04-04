@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -21,8 +21,7 @@
             padding: 15px;
             background: #6a1b9a;
             font-size: 1.2rem;
-            border-bottom: 4px solid #d1c4e9;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-bottom: 4px solid #e1bee7;
         }
         .top-header a {
             color: #ffffff;
@@ -31,41 +30,40 @@
             transition: color 0.3s ease;
         }
         .top-header a:hover {
-            color: #d1c4e9;
+            color: #e1bee7;
         }
         header {
-            font-size: 3rem;
+            font-size: 2.8rem;
             font-weight: bold;
-            padding: 30px;
-            background: linear-gradient(to right, #6a1b9a, #4a148c);
-            color: #ffffff;
+            padding: 25px;
+            background: #f3e5f5;
+            color: #6a1b9a;
             text-transform: uppercase;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
         .products-container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            padding: 40px;
+            gap: 25px;
+            padding: 30px;
         }
         .product-box {
             border: none;
-            padding: 20px;
-            border-radius: 15px;
+            padding: 25px;
+            border-radius: 20px;
             background: #ffffff;
             box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
         .product-box:hover {
             transform: translateY(-10px);
-            box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
         }
         .product-box img {
             width: 100%;
             border-radius: 15px;
         }
         .buy-btn {
-            background: #7b1fa2;
+            background: #6a1b9a;
             color: #ffffff;
             padding: 12px 25px;
             border: none;
@@ -73,16 +71,9 @@
             font-size: 1.1rem;
             cursor: pointer;
             transition: background 0.3s ease;
-            margin-top: 10px;
         }
         .buy-btn:hover {
             background: #4a148c;
-        }
-        #contact {
-            background: #6a1b9a;
-            color: #ffffff;
-            padding: 30px;
-            margin-top: 20px;
         }
     </style>
 </head>
@@ -103,31 +94,31 @@
         <h2>Our Products</h2>
         <div class="products-container">
             <div class="product-box">
-                <img src="https://images.app.goo.gl/VmuWzjhtoHcGGeuS9" alt="Peppermint Roll-On">
+                <img src="peppermint rollon.jpg" alt="Peppermint Roll-On">
                 <h3>Peppermint Roll-On</h3>
                 <p>Cool and refreshing, this roll-on helps ease headaches and tension.</p>
-                <p class="price"><strong>₹200</strong></p>
+                <p class="price">₹200</p>
                 <button class="buy-btn">Buy Now</button>
             </div>
             <div class="product-box">
-                <img src="https://images.app.goo.gl/L3PXfseLkAFVN75k6" alt="Lavender Roll-On">
+                <img src="lavender rollon.jpg" alt="Lavender Roll-On">
                 <h3>Lavender Roll-On</h3>
                 <p>Calming lavender to help reduce stress-related headaches.</p>
-                <p class="price"><strong>₹180</strong></p>
+                <p class="price">₹180</p>
                 <button class="buy-btn">Buy Now</button>
             </div>
             <div class="product-box">
-                <img src="https://images.app.goo.gl/7VFCFtdcT2jr8ujX9" alt="Eucalyptus Roll-On">
+                <img src="eucalyptus rollon.jpg" alt="Eucalyptus Roll-On">
                 <h3>Eucalyptus Roll-On</h3>
                 <p>Refreshing eucalyptus for sinus relief and headache comfort.</p>
-                <p class="price"><strong>₹220</strong></p>
+                <p class="price">₹220</p>
                 <button class="buy-btn">Buy Now</button>
             </div>
         </div>
     </div>
     <div id="contact">
         <h2>Contact Us</h2>
-        <p>Email: rollon@support.com</p>
+        <p>Email: support@rollon.com</p>
         <p>Phone: +91 98598 74641</p>
     </div>
 </body>
